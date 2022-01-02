@@ -1,33 +1,39 @@
 <div class="page-wrapper">
-  <h1>Olga Shyshova</h1>
+  <h1 class="title">Olga Shyshova</h1>
   <div class="main-wrapper">
     <section class="contacts">
       <ul class="contacts__list">
         <li class="contacts__list_item">
-          <a href="mailto:shyshova24@gmail.com"><mat-icon> email</mat-icon></a>
+          <a href="mailto:shyshova24@gmail.com" target="_blank"><mat-icon> email</mat-icon></a>
         </li>
         <li class="contacts__list_item">
           <a href="https://t.me/Olyashyshova"><mat-icon> telegram</mat-icon></a>
+        </li>
+        <li class="contacts__list_item"><a href="tel:3809377777777" target="_blank">
+          <mat-icon> call</mat-icon>
+        </a></li>
+        <li class="contacts__list_item">
+          <a href="facebook.com"><mat-icon> facebook</mat-icon></a>
         </li>
       </ul>
     </section>
 
     <section class="projects">
-      <h2>Projects</h2>
-      <ul class="projects__list">
-        <li class="project">
-          <h3 class="project__title">'Healthy food'</h3>
-          <p><i class="project__tech">Tech: JavaScript, HTML, CSS, webpack.</i></p>
-        </li>
-        <li class="project">
-          <h3 class="project__title">'ToDo List'</h3>
-          <p><i class="project__tech">Tech: JavaScript, HTML, CSS.</i></p>
-        </li>
-      </ul>
-
+      <h2 class="projects_title">Projects</h2>
+      <div class="projects_cards"> 
+        <mat-card class="project">
+          <mat-card-title class="project__title">Healthy food</mat-card-title>
+          <mat-card-subtitle><i class="project__tech">Tech: JavaScript, HTML, CSS, webpack.</i></mat-card-subtitle>
+        </mat-card>
+        <mat-card class="project">
+          <mat-card-title class="project__title">ToDo List</mat-card-title>
+          <mat-card-subtitle><i class="project__tech">Tech: JavaScript, HTML, CSS.</i></mat-card-subtitle>
+        </mat-card>
+      </div>
     </section>
+
     <section class="education">
-      <h2>Education</h2>
+      <h2 class="education_title">Education</h2>
       <ul class="education__list">
         <li>
           <div>
@@ -35,6 +41,7 @@
             <p class="education__description">CS50: CS50's Introduction to Computer Science</p>
           </div>
         </li>
+        
         <li>
           <div>
             <a class="education__place" href="#"><b>National Technical University of Ukraine 'Kiev Polytechnic, Institute' </b></a>
@@ -45,7 +52,7 @@
     </section>
 
     <section class="skills">
-      <h2>Skills</h2>
+      <h2 class="skills_title">Skills</h2>
       <div class="skills__groups">
         <div>
           <h3>Technologies and tools:</h3>
@@ -70,7 +77,7 @@
     </section>
 
     <section class="work">
-      <h2>Work experience</h2>
+      <h2 class="work_title">Work experience</h2>
       <h3 class="work__title"><a href="https://www.flyuia.com/ua/en/home"><b>Ukraine International Airlines</b></a></h3>
       <p class="work__position">Lead engineer</p>
     </section>
