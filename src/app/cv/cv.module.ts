@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CvRoutingModule } from './cv-routing.module';
 import { CvComponent } from './cv.component';
-
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,8 @@ import { CvComponent } from './cv.component';
   ],
   imports: [
     CommonModule,
-    CvRoutingModule
+    CvRoutingModule,
+    MatIconModule
   ]
 })
 export class CvModule { }

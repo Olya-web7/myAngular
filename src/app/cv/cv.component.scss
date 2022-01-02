@@ -1,0 +1,10 @@
+.contacts__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.contacts__list_item:hover {
+  opacity: 0.7;
+}
