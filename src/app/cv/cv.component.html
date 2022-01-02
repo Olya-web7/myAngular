@@ -20,13 +20,13 @@
 
     <section class="projects">
       <h2 class="projects_title">Projects</h2>
-      <div class="projects_cards"> 
+      <div class="cards"> 
         <mat-card class="project">
-          <mat-card-title class="project__title">Healthy food</mat-card-title>
+          <mat-card-title class="project__title"><a href="#">Healthy food</a></mat-card-title>
           <mat-card-subtitle><i class="project__tech">Tech: JavaScript, HTML, CSS, webpack.</i></mat-card-subtitle>
         </mat-card>
         <mat-card class="project">
-          <mat-card-title class="project__title">ToDo List</mat-card-title>
+          <mat-card-title class="project__title"><a href="#">ToDo List</a></mat-card-title>
           <mat-card-subtitle><i class="project__tech">Tech: JavaScript, HTML, CSS.</i></mat-card-subtitle>
         </mat-card>
       </div>
@@ -34,52 +34,63 @@
 
     <section class="education">
       <h2 class="education_title">Education</h2>
-      <ul class="education__list">
-        <li>
-          <div>
-            <a class="education__place" href="https://cs50.harvard.edu/"><i>Harvard University</i></a>
-            <p class="education__description">CS50: CS50's Introduction to Computer Science</p>
-          </div>
-        </li>
-        
-        <li>
-          <div>
-            <a class="education__place" href="#"><b>National Technical University of Ukraine 'Kiev Polytechnic, Institute' </b></a>
-            <p class="education__description">Faculty of Electric Power Engineering and Automatics, Department of Automation of Electromechanical Systems and Electric Drive</p>
-          </div>
-        </li>
-      </ul>
+        <div class="cards">
+          <mat-card>
+            <mat-card-title><a class="education__place" href="https://cs50.harvard.edu/">
+              Harvard University</a></mat-card-title>
+            <mat-card-subtitle class="education__description">
+              CS50: CS50's Introduction to Computer Science</mat-card-subtitle>
+          </mat-card>  
+          <mat-card>
+            <mat-card-title><a class="education__place" href="#">
+              National Technical University of Ukraine 'Kiev Polytechnic, Institute'
+            </a>
+            </mat-card-title>
+            <mat-card-subtitle class="education__description">
+              Faculty of Electric Power Engineering and Automatics, Department of Automation of Electromechanical Systems and Electric Drive</mat-card-subtitle>
+          </mat-card>
+        </div>
     </section>
 
     <section class="skills">
       <h2 class="skills_title">Skills</h2>
-      <div class="skills__groups">
-        <div>
-          <h3>Technologies and tools:</h3>
-          <ul class="skills__list">
-            <li class="skill">HTML5 & BEM</li>
-            <li class="skill">CSS3 & SCSS</li>
-            <li class="skill">JavaScript & AJAX</li>
-            <li class="skill">Webpack & Npm</li>
-            <li class="skill">GitHub & GitLab</li>
-          </ul>
+        <div class="skills__groups">
+          <div class="cards">
+            <mat-card>
+              <h3>Technologies and tools:</h3>
+              <ul class="skills__list">
+                <li class="skill">HTML5 & BEM</li>
+                <li class="skill">CSS3 & SCSS</li>
+                <li class="skill">JavaScript & AJAX</li>
+                <li class="skill">Webpack & Npm</li>
+                <li class="skill">GitHub & GitLab</li>
+              </ul>
+            </mat-card>
+          </div>
+          <div class="cards">
+            <mat-card>
+              <h3>Languages:</h3>
+              <ul class="skills__list">
+                <li class="skill">Russian</li>
+                <li class="skill">English</li>
+                <li class="skill">German</li>
+                <li class="skill">Ukrainian</li>
+              </ul>
+            </mat-card>
+          </div>
         </div>
-        <div>
-          <h3>Languages:</h3>
-          <ul class="skills__list">
-            <li class="skill">Russian</li>
-            <li class="skill">English</li>
-            <li class="skill">German</li>
-            <li class="skill">Ukrainian</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
     <section class="work">
       <h2 class="work_title">Work experience</h2>
-      <h3 class="work__title"><a href="https://www.flyuia.com/ua/en/home"><b>Ukraine International Airlines</b></a></h3>
-      <p class="work__position">Lead engineer</p>
+      <div class="cards">
+        <mat-card>
+          <mat-card-title class="work__title">
+            <a href="https://www.flyuia.com/ua/en/home" target="_blank">
+              Ukraine International Airlines</a></mat-card-title>
+          <mat-card-subtitle class="work__position">Lead engineer</mat-card-subtitle>
+        </mat-card>
+      </div>
     </section>
 
   </div>

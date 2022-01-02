@@ -2,7 +2,7 @@
   text-align: center;
   margin-top: 2em;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 2em;
 }
 
 .contacts__list {
@@ -27,13 +27,32 @@
   font-size: 1.6em;
 }
 
-.projects_cards {
+.cards {
   display: flex;
 
   @media (max-width: 767px) {
     flex-direction: column;
   }
 }
-.project {
+.mat-card {
   margin: 1em;
+}
+
+.mat-card-title a {
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+  font-size: 0.7em;
+
+  &:hover {
+    color: rgb(79, 166, 224);
+  }
+}
+
+.skills__groups {
+  display: flex;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
 }
