@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
     CvRoutingModule,
     MatIconModule,
     MatCardModule
+    
   ]
 })
 export class CvModule { }
